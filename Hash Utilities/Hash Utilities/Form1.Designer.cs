@@ -261,6 +261,7 @@
             this.SHA512CheckBox.Size = new System.Drawing.Size(15, 14);
             this.SHA512CheckBox.TabIndex = 15;
             this.SHA512CheckBox.UseVisualStyleBackColor = true;
+            this.SHA512CheckBox.CheckedChanged += new System.EventHandler(this.SHA512CheckBox_CheckedChanged);
             // 
             // SHA384CheckBox
             // 
@@ -272,6 +273,7 @@
             this.SHA384CheckBox.Size = new System.Drawing.Size(15, 14);
             this.SHA384CheckBox.TabIndex = 14;
             this.SHA384CheckBox.UseVisualStyleBackColor = true;
+            this.SHA384CheckBox.CheckedChanged += new System.EventHandler(this.SHA384CheckBox_CheckedChanged);
             // 
             // SHA256CheckBox
             // 
@@ -283,6 +285,7 @@
             this.SHA256CheckBox.Size = new System.Drawing.Size(15, 14);
             this.SHA256CheckBox.TabIndex = 13;
             this.SHA256CheckBox.UseVisualStyleBackColor = true;
+            this.SHA256CheckBox.CheckedChanged += new System.EventHandler(this.SHA256CheckBox_CheckedChanged);
             // 
             // SHA1CheckBox
             // 
@@ -294,6 +297,7 @@
             this.SHA1CheckBox.Size = new System.Drawing.Size(15, 14);
             this.SHA1CheckBox.TabIndex = 12;
             this.SHA1CheckBox.UseVisualStyleBackColor = true;
+            this.SHA1CheckBox.CheckedChanged += new System.EventHandler(this.SHA1CheckBox_CheckedChanged);
             // 
             // MD5CheckBox
             // 
@@ -305,6 +309,7 @@
             this.MD5CheckBox.Size = new System.Drawing.Size(15, 14);
             this.MD5CheckBox.TabIndex = 11;
             this.MD5CheckBox.UseVisualStyleBackColor = true;
+            this.MD5CheckBox.CheckedChanged += new System.EventHandler(this.MD5CheckBox_CheckedChanged);
             // 
             // SHA512Label
             // 

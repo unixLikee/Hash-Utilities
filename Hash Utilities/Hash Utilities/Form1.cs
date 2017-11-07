@@ -220,5 +220,70 @@ namespace Hash_Utilities
         {
             Clipboard.SetText(SHA512(StringInputTextBox.Text));
         }
+
+        private void MD5CheckBox_CheckedChanged(object sender, EventArgs e)
+        {
+            if (!MD5CheckBox.Checked)
+            {
+                DisplayHashFileMD5.Text = "";
+                DisplayHashFileMD5.BackColor = System.Drawing.Color.Transparent;
+            } else if (MD5CheckBox.Checked)
+            {
+                DisplayHashFileMD5.Text = MD5(StringInputTextBox.Text);
+                DisplayHashFileMD5.BackColor = System.Drawing.Color.LimeGreen;
+            }
+        }
+
+        private void SHA1CheckBox_CheckedChanged(object sender, EventArgs e)
+        {
+            if (!SHA1CheckBox.Checked)
+            {
+                DisplayHashFileSHA1.Text = "";
+                DisplayHashFileSHA1.BackColor = System.Drawing.Color.Transparent;
+            } else if (SHA1CheckBox.Checked)
+            {
+                DisplayHashFileSHA1.Text = SHA1(StringInputTextBox.Text);
+                DisplayHashFileSHA1.BackColor = System.Drawing.Color.LimeGreen;
+            }
+        }
+
+        private void SHA256CheckBox_CheckedChanged(object sender, EventArgs e)
+        {
+            if (!SHA256CheckBox.Checked)
+            {
+                DisplayHashFileSHA256.Text = "";
+                DisplayHashFileSHA256.BackColor = System.Drawing.Color.Transparent;
+            } else if (SHA256CheckBox.Checked)
+            {
+                DisplayHashFileSHA256.Text = SHA256(StringInputTextBox.Text);
+                DisplayHashFileSHA256.BackColor = System.Drawing.Color.LimeGreen;
+            }
+        }
+
+        private void SHA384CheckBox_CheckedChanged(object sender, EventArgs e)
+        {
+            if (!SHA384CheckBox.Checked)
+            {
+                DisplayHashFileSHA384.Text = "";
+                DisplayHashFileSHA384.BackColor = System.Drawing.Color.Transparent;
+            } else if (SHA384CheckBox.Checked)
+            {
+                DisplayHashFileSHA384.Text = SHA384(StringInputTextBox.Text);
+                DisplayHashFileSHA384.BackColor = System.Drawing.Color.LimeGreen;
+            }
+        }
+
+        private void SHA512CheckBox_CheckedChanged(object sender, EventArgs e)
+        {
+            if (!SHA512CheckBox.Checked)
+            {
+                DisplayHashFileSHA512.Text = "";
+                DisplayHashFileSHA512.BackColor = System.Drawing.Color.Transparent;
+            } else if (SHA512CheckBox.Checked)
+            {
+                DisplayHashFileSHA512.Text = SHA384(StringInputTextBox.Text);
+                DisplayHashFileSHA512.BackColor = System.Drawing.Color.LimeGreen;
+            }
+        }
     }
 }
