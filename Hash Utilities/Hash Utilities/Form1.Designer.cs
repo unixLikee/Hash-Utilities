@@ -58,8 +58,8 @@
             this.StringInputLabel = new System.Windows.Forms.Label();
             this.StringInputTextBox = new System.Windows.Forms.TextBox();
             this.FileHash = new System.Windows.Forms.TabPage();
-            this.StringSaveToFile = new System.Windows.Forms.SaveFileDialog();
             this.WIPLabel = new System.Windows.Forms.Label();
+            this.StringSaveToFile = new System.Windows.Forms.SaveFileDialog();
             ((System.ComponentModel.ISupportInitialize)(this.GithubOpen)).BeginInit();
             this.MainTabControl.SuspendLayout();
             this.StringHash.SuspendLayout();
@@ -108,7 +108,7 @@
             this.MainTabControl.Location = new System.Drawing.Point(12, 40);
             this.MainTabControl.Name = "MainTabControl";
             this.MainTabControl.SelectedIndex = 0;
-            this.MainTabControl.Size = new System.Drawing.Size(721, 330);
+            this.MainTabControl.Size = new System.Drawing.Size(721, 347);
             this.MainTabControl.TabIndex = 3;
             // 
             // StringHash
@@ -139,18 +139,17 @@
             this.StringHash.Location = new System.Drawing.Point(4, 22);
             this.StringHash.Name = "StringHash";
             this.StringHash.Padding = new System.Windows.Forms.Padding(3);
-            this.StringHash.Size = new System.Drawing.Size(713, 304);
+            this.StringHash.Size = new System.Drawing.Size(713, 321);
             this.StringHash.TabIndex = 0;
             this.StringHash.Text = "From string";
             this.StringHash.UseVisualStyleBackColor = true;
             // 
             // CopyButtonStringSHA512
             // 
-            this.CopyButtonStringSHA512.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.CopyButtonStringSHA512.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CopyButtonStringSHA512.Location = new System.Drawing.Point(668, 215);
+            this.CopyButtonStringSHA512.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CopyButtonStringSHA512.Location = new System.Drawing.Point(668, 231);
             this.CopyButtonStringSHA512.Name = "CopyButtonStringSHA512";
-            this.CopyButtonStringSHA512.Size = new System.Drawing.Size(39, 35);
+            this.CopyButtonStringSHA512.Size = new System.Drawing.Size(39, 36);
             this.CopyButtonStringSHA512.TabIndex = 26;
             this.CopyButtonStringSHA512.Text = "COPY";
             this.CopyButtonStringSHA512.UseVisualStyleBackColor = true;
@@ -158,11 +157,10 @@
             // 
             // CopyButtonStringSHA384
             // 
-            this.CopyButtonStringSHA384.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.CopyButtonStringSHA384.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CopyButtonStringSHA384.Location = new System.Drawing.Point(668, 174);
+            this.CopyButtonStringSHA384.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CopyButtonStringSHA384.Location = new System.Drawing.Point(668, 186);
             this.CopyButtonStringSHA384.Name = "CopyButtonStringSHA384";
-            this.CopyButtonStringSHA384.Size = new System.Drawing.Size(39, 35);
+            this.CopyButtonStringSHA384.Size = new System.Drawing.Size(39, 36);
             this.CopyButtonStringSHA384.TabIndex = 25;
             this.CopyButtonStringSHA384.Text = "COPY";
             this.CopyButtonStringSHA384.UseVisualStyleBackColor = true;
@@ -170,9 +168,8 @@
             // 
             // CopyButtonStringSHA256
             // 
-            this.CopyButtonStringSHA256.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.CopyButtonStringSHA256.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CopyButtonStringSHA256.Location = new System.Drawing.Point(668, 133);
+            this.CopyButtonStringSHA256.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CopyButtonStringSHA256.Location = new System.Drawing.Point(668, 140);
             this.CopyButtonStringSHA256.Name = "CopyButtonStringSHA256";
             this.CopyButtonStringSHA256.Size = new System.Drawing.Size(39, 35);
             this.CopyButtonStringSHA256.TabIndex = 24;
@@ -182,11 +179,10 @@
             // 
             // CopyButtonStringSHA1
             // 
-            this.CopyButtonStringSHA1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.CopyButtonStringSHA1.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CopyButtonStringSHA1.Location = new System.Drawing.Point(668, 92);
+            this.CopyButtonStringSHA1.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CopyButtonStringSHA1.Location = new System.Drawing.Point(668, 94);
             this.CopyButtonStringSHA1.Name = "CopyButtonStringSHA1";
-            this.CopyButtonStringSHA1.Size = new System.Drawing.Size(39, 35);
+            this.CopyButtonStringSHA1.Size = new System.Drawing.Size(39, 36);
             this.CopyButtonStringSHA1.TabIndex = 23;
             this.CopyButtonStringSHA1.Text = "COPY";
             this.CopyButtonStringSHA1.UseVisualStyleBackColor = true;
@@ -194,9 +190,8 @@
             // 
             // CopyButtonStringMD5
             // 
-            this.CopyButtonStringMD5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.CopyButtonStringMD5.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CopyButtonStringMD5.Location = new System.Drawing.Point(668, 51);
+            this.CopyButtonStringMD5.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CopyButtonStringMD5.Location = new System.Drawing.Point(668, 52);
             this.CopyButtonStringMD5.Name = "CopyButtonStringMD5";
             this.CopyButtonStringMD5.Size = new System.Drawing.Size(39, 36);
             this.CopyButtonStringMD5.TabIndex = 22;
@@ -206,26 +201,23 @@
             // 
             // DisplayHashFileSHA512
             // 
-            this.DisplayHashFileSHA512.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.DisplayHashFileSHA512.Location = new System.Drawing.Point(141, 215);
+            this.DisplayHashFileSHA512.Location = new System.Drawing.Point(141, 231);
             this.DisplayHashFileSHA512.Name = "DisplayHashFileSHA512";
-            this.DisplayHashFileSHA512.Size = new System.Drawing.Size(521, 35);
+            this.DisplayHashFileSHA512.Size = new System.Drawing.Size(521, 36);
             this.DisplayHashFileSHA512.TabIndex = 21;
             this.DisplayHashFileSHA512.UseVisualStyleBackColor = true;
             // 
             // DisplayHashFileSHA384
             // 
-            this.DisplayHashFileSHA384.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.DisplayHashFileSHA384.Location = new System.Drawing.Point(141, 174);
+            this.DisplayHashFileSHA384.Location = new System.Drawing.Point(141, 186);
             this.DisplayHashFileSHA384.Name = "DisplayHashFileSHA384";
-            this.DisplayHashFileSHA384.Size = new System.Drawing.Size(521, 35);
+            this.DisplayHashFileSHA384.Size = new System.Drawing.Size(521, 36);
             this.DisplayHashFileSHA384.TabIndex = 20;
             this.DisplayHashFileSHA384.UseVisualStyleBackColor = true;
             // 
             // DisplayHashFileSHA256
             // 
-            this.DisplayHashFileSHA256.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.DisplayHashFileSHA256.Location = new System.Drawing.Point(141, 133);
+            this.DisplayHashFileSHA256.Location = new System.Drawing.Point(141, 140);
             this.DisplayHashFileSHA256.Name = "DisplayHashFileSHA256";
             this.DisplayHashFileSHA256.Size = new System.Drawing.Size(521, 35);
             this.DisplayHashFileSHA256.TabIndex = 19;
@@ -233,28 +225,25 @@
             // 
             // DisplayHashFileSHA1
             // 
-            this.DisplayHashFileSHA1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.DisplayHashFileSHA1.Location = new System.Drawing.Point(141, 92);
+            this.DisplayHashFileSHA1.Location = new System.Drawing.Point(141, 94);
             this.DisplayHashFileSHA1.Name = "DisplayHashFileSHA1";
-            this.DisplayHashFileSHA1.Size = new System.Drawing.Size(521, 35);
+            this.DisplayHashFileSHA1.Size = new System.Drawing.Size(521, 36);
             this.DisplayHashFileSHA1.TabIndex = 18;
             this.DisplayHashFileSHA1.UseVisualStyleBackColor = true;
             // 
             // DisplayHashFileMD5
             // 
-            this.DisplayHashFileMD5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.DisplayHashFileMD5.Location = new System.Drawing.Point(141, 52);
             this.DisplayHashFileMD5.Name = "DisplayHashFileMD5";
-            this.DisplayHashFileMD5.Size = new System.Drawing.Size(521, 35);
+            this.DisplayHashFileMD5.Size = new System.Drawing.Size(521, 36);
             this.DisplayHashFileMD5.TabIndex = 17;
             this.DisplayHashFileMD5.UseVisualStyleBackColor = false;
             // 
             // StringExportToFileButton
             // 
             this.StringExportToFileButton.Cursor = System.Windows.Forms.Cursors.Default;
-            this.StringExportToFileButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.StringExportToFileButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.StringExportToFileButton.Location = new System.Drawing.Point(543, 256);
+            this.StringExportToFileButton.Location = new System.Drawing.Point(543, 277);
             this.StringExportToFileButton.Name = "StringExportToFileButton";
             this.StringExportToFileButton.Size = new System.Drawing.Size(164, 40);
             this.StringExportToFileButton.TabIndex = 16;
@@ -267,10 +256,9 @@
             this.SHA512CheckBox.AutoSize = true;
             this.SHA512CheckBox.Checked = true;
             this.SHA512CheckBox.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.SHA512CheckBox.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.SHA512CheckBox.Location = new System.Drawing.Point(14, 225);
+            this.SHA512CheckBox.Location = new System.Drawing.Point(14, 241);
             this.SHA512CheckBox.Name = "SHA512CheckBox";
-            this.SHA512CheckBox.Size = new System.Drawing.Size(12, 11);
+            this.SHA512CheckBox.Size = new System.Drawing.Size(15, 14);
             this.SHA512CheckBox.TabIndex = 15;
             this.SHA512CheckBox.UseVisualStyleBackColor = true;
             // 
@@ -279,10 +267,9 @@
             this.SHA384CheckBox.AutoSize = true;
             this.SHA384CheckBox.Checked = true;
             this.SHA384CheckBox.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.SHA384CheckBox.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.SHA384CheckBox.Location = new System.Drawing.Point(14, 183);
+            this.SHA384CheckBox.Location = new System.Drawing.Point(14, 195);
             this.SHA384CheckBox.Name = "SHA384CheckBox";
-            this.SHA384CheckBox.Size = new System.Drawing.Size(12, 11);
+            this.SHA384CheckBox.Size = new System.Drawing.Size(15, 14);
             this.SHA384CheckBox.TabIndex = 14;
             this.SHA384CheckBox.UseVisualStyleBackColor = true;
             // 
@@ -291,10 +278,9 @@
             this.SHA256CheckBox.AutoSize = true;
             this.SHA256CheckBox.Checked = true;
             this.SHA256CheckBox.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.SHA256CheckBox.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.SHA256CheckBox.Location = new System.Drawing.Point(15, 142);
+            this.SHA256CheckBox.Location = new System.Drawing.Point(15, 149);
             this.SHA256CheckBox.Name = "SHA256CheckBox";
-            this.SHA256CheckBox.Size = new System.Drawing.Size(12, 11);
+            this.SHA256CheckBox.Size = new System.Drawing.Size(15, 14);
             this.SHA256CheckBox.TabIndex = 13;
             this.SHA256CheckBox.UseVisualStyleBackColor = true;
             // 
@@ -303,10 +289,9 @@
             this.SHA1CheckBox.AutoSize = true;
             this.SHA1CheckBox.Checked = true;
             this.SHA1CheckBox.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.SHA1CheckBox.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.SHA1CheckBox.Location = new System.Drawing.Point(14, 102);
+            this.SHA1CheckBox.Location = new System.Drawing.Point(14, 104);
             this.SHA1CheckBox.Name = "SHA1CheckBox";
-            this.SHA1CheckBox.Size = new System.Drawing.Size(12, 11);
+            this.SHA1CheckBox.Size = new System.Drawing.Size(15, 14);
             this.SHA1CheckBox.TabIndex = 12;
             this.SHA1CheckBox.UseVisualStyleBackColor = true;
             // 
@@ -315,10 +300,9 @@
             this.MD5CheckBox.AutoSize = true;
             this.MD5CheckBox.Checked = true;
             this.MD5CheckBox.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.MD5CheckBox.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.MD5CheckBox.Location = new System.Drawing.Point(14, 65);
             this.MD5CheckBox.Name = "MD5CheckBox";
-            this.MD5CheckBox.Size = new System.Drawing.Size(12, 11);
+            this.MD5CheckBox.Size = new System.Drawing.Size(15, 14);
             this.MD5CheckBox.TabIndex = 11;
             this.MD5CheckBox.UseVisualStyleBackColor = true;
             // 
@@ -326,7 +310,7 @@
             // 
             this.SHA512Label.AutoSize = true;
             this.SHA512Label.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.SHA512Label.Location = new System.Drawing.Point(37, 220);
+            this.SHA512Label.Location = new System.Drawing.Point(37, 236);
             this.SHA512Label.Name = "SHA512Label";
             this.SHA512Label.Size = new System.Drawing.Size(98, 25);
             this.SHA512Label.TabIndex = 10;
@@ -336,7 +320,7 @@
             // 
             this.SHA384Label.AutoSize = true;
             this.SHA384Label.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.SHA384Label.Location = new System.Drawing.Point(37, 178);
+            this.SHA384Label.Location = new System.Drawing.Point(37, 190);
             this.SHA384Label.Name = "SHA384Label";
             this.SHA384Label.Size = new System.Drawing.Size(98, 25);
             this.SHA384Label.TabIndex = 8;
@@ -346,7 +330,7 @@
             // 
             this.SHA256Label.AutoSize = true;
             this.SHA256Label.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.SHA256Label.Location = new System.Drawing.Point(38, 137);
+            this.SHA256Label.Location = new System.Drawing.Point(38, 144);
             this.SHA256Label.Name = "SHA256Label";
             this.SHA256Label.Size = new System.Drawing.Size(98, 25);
             this.SHA256Label.TabIndex = 6;
@@ -356,7 +340,7 @@
             // 
             this.SHA1Label.AutoSize = true;
             this.SHA1Label.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.SHA1Label.Location = new System.Drawing.Point(37, 97);
+            this.SHA1Label.Location = new System.Drawing.Point(37, 99);
             this.SHA1Label.Name = "SHA1Label";
             this.SHA1Label.Size = new System.Drawing.Size(74, 25);
             this.SHA1Label.TabIndex = 4;
@@ -395,7 +379,7 @@
             this.FileHash.Location = new System.Drawing.Point(4, 22);
             this.FileHash.Name = "FileHash";
             this.FileHash.Padding = new System.Windows.Forms.Padding(3);
-            this.FileHash.Size = new System.Drawing.Size(713, 304);
+            this.FileHash.Size = new System.Drawing.Size(713, 321);
             this.FileHash.TabIndex = 1;
             this.FileHash.Text = "From file";
             this.FileHash.UseVisualStyleBackColor = true;
@@ -415,7 +399,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.ClientSize = new System.Drawing.Size(745, 378);
+            this.ClientSize = new System.Drawing.Size(745, 391);
             this.Controls.Add(this.MainTabControl);
             this.Controls.Add(this.SubtitleLabel);
             this.Controls.Add(this.GithubOpen);

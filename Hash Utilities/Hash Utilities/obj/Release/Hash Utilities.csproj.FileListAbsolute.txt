@@ -7,3 +7,13 @@ C:\Users\Giovanni\source\repos\Hash Utilities\Hash Utilities\obj\Release\Hash Ut
 C:\Users\Giovanni\source\repos\Hash Utilities\Hash Utilities\obj\Release\Hash Utilities.csproj.CoreCompileInputs.cache
 C:\Users\Giovanni\source\repos\Hash Utilities\Hash Utilities\obj\Release\Hash Utilities.exe
 C:\Users\Giovanni\source\repos\Hash Utilities\Hash Utilities\obj\Release\Hash Utilities.pdb
+C:\Users\Giovanni\Desktop\Hash Utilities\Hash Utilities\obj\Release\Hash_Utilities.mainForm.resources
+C:\Users\Giovanni\Desktop\Hash Utilities\Hash Utilities\obj\Release\Hash_Utilities.Properties.Resources.resources
+C:\Users\Giovanni\Desktop\Hash Utilities\Hash Utilities\obj\Release\Hash Utilities.csproj.GenerateResource.Cache
+C:\Users\Giovanni\Desktop\Hash Utilities\Hash Utilities\obj\Release\Hash Utilities.csproj.CoreCompileInputs.cache
+C:\Users\Giovanni\Desktop\Hash Utilities\Hash Utilities\obj\Release\Hash Utilities.exe
+C:\Users\Giovanni\Desktop\Hash Utilities\Hash Utilities\obj\Release\Hash Utilities.pdb
+C:\Users\Giovanni\Desktop\Hash Utilities\Hash Utilities\obj\Release\Hash Utilities.csprojResolveAssemblyReference.cache
+C:\Users\Giovanni\Desktop\Hash Utilities.exe.config
+C:\Users\Giovanni\Desktop\Hash Utilities.exe
+C:\Users\Giovanni\Desktop\Hash Utilities.pdb
