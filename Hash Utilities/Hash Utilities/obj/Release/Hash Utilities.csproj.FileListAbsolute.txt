@@ -1,0 +1,9 @@
+C:\Users\Giovanni\source\repos\Hash Utilities\Hash Utilities\bin\Release\Hash Utilities.exe.config
+C:\Users\Giovanni\source\repos\Hash Utilities\Hash Utilities\bin\Release\Hash Utilities.exe
+C:\Users\Giovanni\source\repos\Hash Utilities\Hash Utilities\bin\Release\Hash Utilities.pdb
+C:\Users\Giovanni\source\repos\Hash Utilities\Hash Utilities\obj\Release\Hash_Utilities.mainForm.resources
+C:\Users\Giovanni\source\repos\Hash Utilities\Hash Utilities\obj\Release\Hash_Utilities.Properties.Resources.resources
+C:\Users\Giovanni\source\repos\Hash Utilities\Hash Utilities\obj\Release\Hash Utilities.csproj.GenerateResource.Cache
+C:\Users\Giovanni\source\repos\Hash Utilities\Hash Utilities\obj\Release\Hash Utilities.csproj.CoreCompileInputs.cache
+C:\Users\Giovanni\source\repos\Hash Utilities\Hash Utilities\obj\Release\Hash Utilities.exe
+C:\Users\Giovanni\source\repos\Hash Utilities\Hash Utilities\obj\Release\Hash Utilities.pdb
